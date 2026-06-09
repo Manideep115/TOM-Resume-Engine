@@ -121,7 +121,7 @@ This reduces token usage and improves output quality.
 
 ## 📸 Screenshots
 
-Add screenshots here.
+![alt text](ss1.png)
 
 ---
 
