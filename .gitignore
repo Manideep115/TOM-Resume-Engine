@@ -1,0 +1,11 @@
+# Ignore the specific private data file
+master_profile_old.json
+
+# Ignore all generated PDF files
+*.pdf
+*.tex
+*.md
+
+
+# Ignore Python cache folders
+__pycache__/

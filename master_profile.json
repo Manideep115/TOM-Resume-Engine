@@ -1,0 +1,351 @@
+{
+  "personal_info": {
+    "name": "ALUR MANIDEEP",
+    "email": "alurmanideep115@gmail.com",
+    "phone": "+91 7013473681",
+    "linkedin": "linkedin.com/in/manideep-alur-0333b3275",
+    "location": "2/202-1, Teachers Colony, Alur, Kurnool 518395"
+  },
+  "profile_summaries": [
+    {
+      "focus": "App & Web Development",
+      "text": "CS undergraduate at VIT-AP University specializing in Android and Web development. Skilled in building real-time apps, user-friendly interfaces, and lightweight backend systems using PHP, MySQL, Firebase, and REST APIs."
+    },
+    {
+      "focus": "AI/ML & Intelligent Systems",
+      "text": "CS undergraduate at VIT-AP University with hands-on experience in computer vision, intelligent systems, and NLP pipelines. Proficient in Python, YOLOv8, and OpenCV. Strong problem-solving, leadership, and entrepreneurial mindset."
+    },
+    {
+      "focus": "ML Infra & Data Pipelines",
+      "text": "CS undergraduate at VIT-AP University with experience in ML infrastructure, model experimentation, and scalable pipelines. Skilled in end-to-end ML workflows from data preprocessing to model deployment and evaluation."
+    }
+  ],
+  "skills_pool": {
+    "programming_languages": ["Java", "Python", "PHP", "JavaScript"],
+    "web_technologies": ["HTML", "CSS", "MySQL", "Firebase", "REST APIs"],
+    "mobile_development": ["Android Studio", "XML UI", "Usage Access APIs"],
+    "ai_ml_nlp": ["OpenCV", "YOLOv8", "RAG", "LLM finetuning", "face_recognition", "PyTorch (basic)", "CNN", "NLTK", "scikit-learn"],
+    "tools_and_infra": ["Ollama", "n8n", "Arduino", "AWS (basics)", "CI/CD", "Workflow Automation"],
+    "core_concepts": ["DSA", "OOPS", "DBMS", "Computer Networks", "OS", "ML Pipelines", "Debugging"],
+    "soft_skills": ["Problem-solving", "Teamwork", "Communication", "Leadership", "Risk-taking"]
+  },
+
+  
+  "skill_aliases": {
+
+      "rag": [
+        "retrieval augmented generation",
+        "graphrag",
+        "semantic search",
+        "vector database",
+        "knowledge graph",
+        "chromadb",
+        "networkx"
+      ],
+
+      "llm": [
+        "large language model",
+        "llama",
+        "prompt engineering",
+        "genai",
+        "generative ai",
+        "llm application",
+        "openrouter",
+        "ollama"
+      ],
+
+      "computer vision": [
+        "opencv",
+        "yolov8",
+        "object detection",
+        "image processing",
+        "face recognition",
+        "tracking"
+      ],
+
+      "nlp": [
+        "natural language processing",
+        "text classification",
+        "nltk",
+        "sentiment analysis",
+        "naive bayes",
+        "svm"
+      ],
+
+      "android": [
+        "android studio",
+        "mobile application",
+        "java",
+        "xml",
+        "usage access api",
+        "overlay permissions"
+      ],
+
+      "web development": [
+        "php",
+        "mysql",
+        "javascript",
+        "html",
+        "css",
+        "full stack"
+      ],
+
+      "automation": [
+        "n8n",
+        "workflow automation",
+        "api integration",
+        "orchestration",
+        "google sheets"
+      ],
+
+      "api": [
+        "rest api",
+        "openai api",
+        "gemini api",
+        "meta api",
+        "api integration"
+      ],
+
+      "iot": [
+        "arduino",
+        "embedded systems",
+        "pir sensor",
+        "sound sensor",
+        "hardware integration"
+      ]
+    },
+
+
+  "education": [
+    {
+      "institution": "VIT-AP University, Amaravathi",
+      "degree": "B.Tech CSE",
+      "timeline": "2022--2026",
+      "metrics": ["CGPA: 8.60"]
+    },
+    {
+      "institution": "Sri Chaitanya Jr. College",
+      "degree": "PCM",
+      "timeline": "2020--2022",
+      "metrics": ["93.6\\%"]
+    },
+    {
+      "institution": "A.P. Model School",
+      "degree": "10th",
+      "timeline": "2020",
+      "metrics": ["97.3\\%"]
+    }
+  ],
+  "projects_pool": [
+    {
+      "id": "llm_lawyer",
+      "title": "LLM LAWYER: Hybrid GraphRAG Legal Assistant",
+      "timeline": "2026",
+       "priority": 10,
+    "domains": ["ai", "llm", "nlp", "rag", "legal-tech"],
+    "keywords": [
+      "graphrag","retrieval augmented generation","rag","chromadb","vector database","knowledge graph","networkx","semantic search", "ocr",
+      "tesseract",
+      "llama",
+      "legal ai"
+    ],
+      "technologies": ["Python", "Streamlit", "ChromaDB", "NetworkX", "OpenRouter API", "Tesseract OCR", "Plotly"],
+      "bullets": [
+        "Architected a Hybrid GraphRAG system combining ChromaDB vector search and NetworkX multi-hop reasoning across Indian criminal laws (BNS, BNSS, BSA).",
+        "Engineered a dual-fallback OCR pipeline (pdfplumber + Tesseract) and a zero-hallucination Llama 3.1 pipeline with interactive Plotly case visualizations."
+      ]
+    },
+    {
+      "id": "target_vision",
+      "title": "Target Vision: Face Recognition & Head-Aim System",
+      "timeline": "2025",
+      "priority": 9,
+      "domains": ["ai", "computer-vision", "embedded-ai"],
+      "keywords": [
+        "computer vision",
+        "opencv",
+        "yolov8",
+        "object detection",
+        "face recognition",
+        "tracking",
+        "real time inference",
+        "arduino",
+        "image processing"
+      ],
+      "technologies": ["Python", "OpenCV", "face_recognition", "YOLOv8", "Arduino"],
+      "bullets": [
+        "Built a real-time targeting system integrating YOLOv8 head detection and face recognition for identity filtering with low-latency inference.",
+        "Designed coordinate-based pipeline using OpenCV tracking to align laser targets with calibrated precision and hardware responsiveness."
+      ]
+    },
+    {
+      "id": "onesec_app",
+      "title": "OneSec Habit Breaker App",
+      "timeline": "2025",
+      "priority": 8,
+      "domains": ["android", "mobile-development"],
+      "keywords": [
+        "android",
+        "android studio",
+        "java",
+        "mobile application",
+        "usage access api",
+        "overlay permissions",
+        "digital wellbeing",
+        "habit tracker",
+        "productivity app"
+      ],
+      "technologies": ["Java", "Android Studio", "Usage Access APIs", "Overlay Permissions"],
+      "bullets": [
+        "Built an Android habit-breaking app using Usage Access APIs and overlay permissions to interrupt distracting app launches.",
+        "Designed micro-interventions with intent control to prompt user choices, reducing subconscious scrolling habits."
+      ]
+    },
+    {
+      "id": "animal_intrusion",
+      "title": "Animal Intrusion Detection System",
+      "timeline": "2024",
+      "priority": 8,
+      "domains": ["ai", "computer-vision"],
+      "keywords": [
+        "computer vision",
+        "yolov8",
+        "opencv",
+        "object detection",
+        "dataset preparation",
+        "model training",
+        "image processing",
+        "real time detection",
+        "cnn"
+      ],
+      "technologies": ["Python", "OpenCV", "YOLOv8", "Ultralytics", "CNN"],
+      "bullets": [
+        "Fine-tuned YOLOv8 on Animals-10+ dataset; built end-to-end pipeline from dataset prep to deployment achieving 65--70\\% accuracy over CNN baseline.",
+        "Designed full evaluation workflow spanning feature extraction, training, and real-time edge deployment."
+      ]
+    },
+    {
+      "id": "cyberbullying_detection",
+      "title": "Cyberbullying Detection using NLP",
+      "timeline": "2024",
+      "priority": 7,
+      "domains": ["ai", "nlp"],
+      "keywords": [
+        "nlp",
+        "natural language processing",
+        "text classification",
+        "machine learning",
+        "sentiment analysis",
+        "nltk",
+        "naive bayes",
+        "svm",
+        "content moderation"
+      ],
+      "technologies": ["Python", "NLTK", "scikit-learn", "Naive Bayes", "SVM"],
+      "bullets": [
+        "Built NLP classification pipeline with NLTK text preprocessing and feature extraction for detecting harmful online content.",
+        "Trained and evaluated Naive Bayes and SVM models; optimized performance via statistical classification reports."
+      ]
+    },
+    {
+      "id": "n8n_automation",
+      "title": "n8n Workflow Automation & Integrations",
+      "timeline": "2024-2025",
+      "priority": 8,
+      "domains": ["automation", "ai", "workflow"],
+      "keywords": [
+        "workflow automation",
+        "n8n",
+        "ollama",
+        "llm integration",
+        "openai api",
+        "gemini api",
+        "meta api",
+        "api orchestration",
+        "automation"
+      ],
+      "technologies": ["n8n", "OpenAI API", "Gemini API", "Meta APIs", "Google Sheets"],
+      "bullets": [
+        "Engineered automated LLM text pipelines using local Ollama deployments and n8n orchestration layers.",
+        "Built dynamic workflows integrating OpenAI, Gemini, and Meta APIs with Google Sheets via programmatic triggers."
+      ]
+    },
+    {
+      "id": "uni_feedback",
+      "title": "UniFeedback Web Platform",
+      "timeline": "2024",
+      "priority": 6,
+      "domains": ["web-development", "full-stack"],
+      "keywords": [
+        "php",
+        "mysql",
+        "javascript",
+        "html",
+        "css",
+        "authentication",
+        "dashboard",
+        "feedback system",
+        "full stack development"
+      ],
+      "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "bullets": [
+        "Developed a full-stack feedback system with multi-tier authentication, teacher forms, and an admin analytics dashboard.",
+        "Hosted on Infinity Free with custom remote MySQL database connectivity."
+      ]
+    },
+    {
+      "id": "movie_recommendation",
+      "title": "Movie Recommendation App",
+      "timeline": "2023-2024",
+      "priority": 5,
+      "domains": ["android", "mobile-development"],
+      "keywords": [
+        "android",
+        "java",
+        "tmdb api",
+        "rest api",
+        "recommendation system",
+        "mobile application",
+        "api integration"
+      ],
+      "technologies": ["Java", "Android Studio", "TMDB API", "REST APIs"],
+      "bullets": [
+        "Built personalized movie suggestion Android app integrating TMDB API for low-latency search and content-aware rendering.",
+        "Designed responsive XML UI with multi-category browsing and dynamic poster grids."
+      ]
+    },
+    {
+      "id": "baby_monitor",
+      "title": "Baby Monitoring System",
+      "timeline": "2023",
+      "priority": 4,
+      "domains": ["iot", "embedded-systems"],
+      "keywords": [
+        "arduino",
+        "iot",
+        "embedded systems",
+        "pir sensor",
+        "sound sensor",
+        "monitoring system",
+        "hardware integration"
+      ],
+      "technologies": ["Arduino Uno", "Sound Sensor", "PIR Sensor", "Embedded Systems"],
+      "bullets": [
+        "Designed hardware monitoring safety system using Arduino Uno with sound and PIR sensors.",
+        "Programmed real-time alert scripts triggered by ambient sound and motion sensor processing."
+      ]
+    }
+  ],
+  "certifications": [
+    {"name": "OCI 2025 Certified Generative AI Professional", "issuer": "Oracle", "date": "Jul 2025"},
+    {"name": "Oracle Foundations Associate", "issuer": "Oracle", "date": "2025"},
+    {"name": "Android App Development", "issuer": "Imarticus Learning", "date": "Jun-Jul 2024"},
+    {"name": "JavaScript Essentials", "issuer": "Cisco Networking Academy", "date": "May 2024"},
+    {"name": "Certified Entrepreneur", "issuer": "Wadhwani Foundation", "date": "WinSem 2024"}
+  ],
+  "awards_and_achievements": [
+    {"title": "Grandmaster Top 1", "organization": "CSI VIT-AP", "detail": "Ranked 1st in 100 Days of Coding Challenge Phase 1 (Java)."},
+    {"title": "OOPS Maverick Title", "organization": "CSI VIT-AP", "detail": "Outstanding programming consistency in Phase 2 of 100 Days Coding Challenge."},
+    {"title": "Global Jury Certificate", "organization": "Wadhwani Foundation", "detail": "Recognized for 'Park Smarter' venture development and pitch execution."}
+  ]
+}
