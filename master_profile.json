@@ -156,6 +156,49 @@
       ]
     },
     {
+      "id": "tom_resume_engine",
+      "title": "TOM Resume Engine: AI-Powered Resume Tailoring System",
+      "timeline": "2026",
+      "priority": 11,
+      "domains": ["ai", "llm", "automation", "career-tech"],
+      "keywords": [
+        "resume tailoring",
+        "ats optimization",
+        "job description analysis",
+        "prompt engineering",
+        "llm orchestration",
+        "project ranking",
+        "resume generation",
+        "latex",
+        "pdflatex",
+        "streamlit",
+        "ollama",
+        "groq",
+        "openrouter",
+        "context isolation",
+        "career automation",
+        "retrieval",
+        "scoring engine",
+        "automation"
+      ],
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Ollama",
+        "Groq API",
+        "OpenRouter",
+        "LaTeX",
+        "PDFLaTeX",
+        "Pandas",
+        "Regex",
+        "JSON"
+      ],
+      "bullets": [
+        "Architected an AI-powered resume tailoring engine that converts Job Descriptions into ATS-friendly resumes using context retrieved from a structured Master_Profile.json knowledge base.",
+        "Designed a multi-stage pipeline featuring JD analysis, project ranking, keyword matching, recency-aware scoring, context-isolated LLM generation, automated LaTeX compilation, live PDF preview, and tailored cover letter generation."
+      ]
+    },
+    {
       "id": "target_vision",
       "title": "Target Vision: Face Recognition & Head-Aim System",
       "timeline": "2025",
