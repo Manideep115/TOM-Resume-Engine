@@ -150,7 +150,7 @@ with st.sidebar:
         st.session_state.output_name = st.text_input(
             "Filename", value=st.session_state.output_name, label_visibility="collapsed"
         )
-        if st.button("🔄 New Resume", use_container_width=True):
+        if st.button("🔄 New Resume", width='stretch'):
             for k in ["latex_code","cover_letter","scoring_log","jd_schema","compile_status","pdf_ready"]:
                 st.session_state[k] = "" if isinstance(st.session_state[k], str) else ([] if isinstance(st.session_state[k], list) else ({} if isinstance(st.session_state[k], dict) else None))
             st.rerun()
@@ -183,7 +183,7 @@ st.markdown("# TOM-AI Resume Tailoring Agent")
 
 col_title, col_guide = st.columns([3, 1])
 with col_guide:
-    if st.button("📘 How to create master_profile.json", use_container_width=True):
+    if st.button("📘 How to create master_profile.json", width='stretch'):
         st.session_state.page = "guide"
         st.rerun()
 
@@ -200,7 +200,7 @@ if not st.session_state.latex_code:
             "jd_input", height=380, label_visibility="collapsed",
             placeholder="Paste the target Job Description here...",
         )
-        if st.button("🚀 Generate Tailored Resume", type="primary", use_container_width=True):
+        if st.button("🚀 Generate Tailored Resume", type="primary", width='stretch'):
             if not jd_text.strip():
                 st.error("Paste a Job Description first.")
             elif not os.path.exists("master_profile.json"):
@@ -276,12 +276,12 @@ else:
 
         b1, b2, b3 = st.columns(3)
         with b1:
-            compile_clicked = st.button("▶ Compile", type="primary", use_container_width=True)
+            compile_clicked = st.button("▶ Compile", type="primary", width='stretch')
         with b2:
             st.download_button(
                 "📄 .tex", data=edited_latex,
                 file_name=f"{out}.tex", mime="text/plain",
-                use_container_width=True,
+                width='stretch',
             )
         with b3:
             pdf_path = f"{out}.pdf"
@@ -290,10 +290,10 @@ else:
                     st.download_button(
                         "📥 PDF", data=f,
                         file_name=f"{out}.pdf", mime="application/pdf",
-                        use_container_width=True,
+                        width='stretch',
                     )
             else:
-                st.button("📥 PDF", disabled=True, use_container_width=True, help="Compile first")
+                st.button("📥 PDF", disabled=True, width='stretch', help="Compile first")
 
         # ─── RESTORED UNFILTERED LOG VIEWER ───
         if compile_clicked:
@@ -382,7 +382,7 @@ else:
                 return [color] * len(row)
             
             styled_df = df.style.apply(highlight_selected, axis=1)
-            st.dataframe(styled_df, use_container_width=True)
+            st.dataframe(styled_df, width='stretch')
             st.caption("Score = (Tech + Context + Keyword + Domain + Priority) × Recency multiplier.")
         else:
             st.info("Score breakdown will appear here after generation.")
