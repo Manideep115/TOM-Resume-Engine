@@ -8,7 +8,7 @@ from tailor_engine import (
     score_projects, PROVIDER_CONFIGS, PROVIDER_MODELS,
 )
 
-st.set_page_config(page_title="AI Resume Tailor", page_icon="🏏", layout="wide")
+st.set_page_config(page_title="TOMM-AI Resume G", page_icon="🤖", layout="wide")
 
 # ─── RCB THEME CSS ───────────────────────────────────────────────────────────
 st.markdown("""
@@ -179,7 +179,7 @@ It's the **single source of truth** for all your experience. The AI reads it eve
 # ═══════════════════════════════════════════════════════════
 # PAGE: MAIN
 # ═══════════════════════════════════════════════════════════
-st.markdown("# 🏏 AI Resume Tailoring Agent")
+st.markdown("# TOM-AI Resume Tailoring Agent")
 
 col_title, col_guide = st.columns([3, 1])
 with col_guide:
