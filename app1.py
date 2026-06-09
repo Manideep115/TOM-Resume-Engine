@@ -8,7 +8,7 @@ from tailor_engine import (
     score_projects, PROVIDER_CONFIGS, PROVIDER_MODELS,
 )
 
-st.set_page_config(page_title="TOMM-AI Resume G", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="TOM-AI Resume Generaator", page_icon="🤖", layout="wide")
 
 # ─── RCB THEME CSS ───────────────────────────────────────────────────────────
 st.markdown("""
